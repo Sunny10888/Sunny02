@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sunny(●'◡'●)</title>
+<link href="reset.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="pp.css" rel="stylesheet" type="text/css">
+</head>
+<script src="js/jquery.min.js"></script>
+<script src="js/parallaxie.min.js"></script>
+<body>
+	
+<nav>
+  <h3>Sunny&nbsp;</h3>
+  <ul>
+    <li><a href="#a01">Home</a></li>  ｜
+    <li><a href="#a02">ME</a></li>    ｜
+    <li><a href="#a03">Portfolio</a></li>   ｜
+    <li><a href="#a04">Contact</a></li>
+  </ul>
+</nav>
+<header>
+	<article id="a01">
+<div class="body header div">
+    <h5>Welcomebr<br>
+      everyone come to my personal page!</h5>
+  </div>
+</header>
+<main>
+  <article id="a02">
+    <div class="container1">
+      <div class="left">
+        <p>Hello, my name is 黃思瑜.<br>
+          You can call me Sunny.&nbsp;</p>
+        <p>&nbsp;I am 19 years old and a freshman in college.&nbsp; During my free time,&nbsp;</p>
+        <p>I enjoy watching movies with my friends.</p>
+<p>&nbsp;I am passionate about art and philosophy, and I love spending time drawing and pondering life's big questions.&nbsp;</p>
+<p>I'm a bit shy, but I approach everything</p>
+<p>&nbsp;I do with dedication and enthusiasm.</p>
+<p>&nbsp;Nice to meet you! </p>
+      </div>
+      <div class="right"></div>
+    </div>
+</article>
+	
+ <article class="course" id="a03">
+    <h2>【Portfolio】</h2>
+
+      <p><strong>floral arrangements</strong></p>
+    
+   <div class="container2">
+      <div class="col01 col02 col03 container2">
+      </div>
+      <div class="col02">
+      </div>
+      <div class="col03">    
+      </div>
+		
+    </div>
+</article>
+<article class="course2">
+    <h2>Mobile Photography Works &amp; Hand-drawn Works</h2>
+  <div class="viewer">
+        <img src="S__87400474.jpg" alt="Photo 1" width="600" height="300" class="active">
+        <img src="S__87400473.jpg" alt="Photo 2" width="600" height="300"class="active 1 ">
+        <img src="S__87400488_0.jpg" alt="Photo 3"width="600" height="300"class="active 2 ">
+	  <img src="S__87400475.jpg" alt="Photo 4"width="2048" height="1398"class="active 3 ">
+	  <img src="S__87400477_0.jpg" alt="Photo 5"width="1445" height="818"class="active 4 ">
+        <div class="buttons">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+    </div>
+</article>
+  <article id="a04" style="padding-bottom: 0px">
+    <h2>Contact</h2>
+    <p><a href="https://www.instagram.com/" target="_blank">IG</a>｜ <a href="https://www.facebook.com/" target="_blank">FB</a>｜<a href="https://line.me/ti/p/4233BxcwnO" target="_blank">LINE</a>&nbsp;</p>
+<p>Email: Siyu2417@email.com</p>
+<p>Phone: +886 0928181067</p>
+<p>&nbsp;</p>
+<p>Address: No. 145, Xingda Road, South District, Taichung City 402, Taiwan.</p>
+
+    
+  </article>
+	
+</main>
+
+
+<script>
+        const images = document.querySelectorAll('.viewer img');
+        let currentIndex = 0;
+
+        document.getElementById('prev').addEventListener('click', () => {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            images[currentIndex].classList.add('active');
+        });
+
+        document.getElementById('next').addEventListener('click', () => {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        });
+  
+	</script>
+	
+	
+<footer> 版權所有 © Sunny </footer>
+</body>
+</html>

@@ -1,0 +1,345 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+body {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #FFF7E2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    opacity: 0.9;
+    -webkit-box-shadow: 0px 1px 20px #6B6B6B;
+    box-shadow: 0px 1px 20px #6B6B6B;
+    color: #000000;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+nav h3 {
+    color: #000000;
+    font-size: 50px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    -webkit-transition: all 1s 0s;
+    -o-transition: all 1s 0s;
+    transition: all 1s 0s;
+}
+nav a:link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+nav a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:hover {
+    color: #FFA9AB;
+    text-decoration: none;
+    font-weight: 400;
+    /* [disabled]width: 268px; */
+}
+body p {
+}
+#a01 .container2 {
+    background-color: #FFFFFF;
+    height: 52px;
+    text-align: center;
+}
+
+
+nav ul {
+  margin-right: 20px;
+}
+header {
+    width: 98%;
+    height: 104vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: 0% center;
+    /* [disabled]background-color: #000000; */
+    text-align: center;
+}
+header h1 {
+    color: #000000;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 70px;
+    line-height: 95px;
+}
+header a:link {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #FAFAFA;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #7B0303;
+  text-decoration: none;
+}
+header a:visited {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #FAFAFA;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #7B0303;
+  text-decoration: none;
+}
+header a:hover {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: #550E57;
+    border-radius: 35px;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+article {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: undefined;
+}
+article h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 40px;
+    font-weight: 600;
+    height: 2pt;
+}
+.course {
+
+}
+.container1 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+}
+.container1 .left {
+  flex: 1;
+  text-align: justify;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+.container1 .right {
+    flex: 1;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-image: url(%E6%80%9D%E7%91%9C.jpg);
+    background-size: cover;
+    background-position: -103% 51%;
+    border: 49px none #FFF7E5;
+}
+article p {
+    text-align: center;
+    font-size: 18px;
+    /* [disabled]font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; */
+}
+.container2 {
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 329px;
+    margin-top: 20px;
+    background-position: 51% 0%;
+    text-align: right;
+    text-indent: 69px;
+    -webkit-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+}
+.container2 .col01 {
+    flex: 1;
+    background-size: cover;
+    margin: 5px;
+    border-radius: 10px;
+    background-position: 59% center;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+    font-size: 17px;
+    background-image: url(S__87400482_0.jpg);
+    text-align: center;
+    text-decoration: none;
+    text-indent: 1px;
+    -webkit-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.container2 .col02 {
+    flex: 1;
+    background-image: url(S__87293959_0.jpg);
+    background-size: cover;
+    margin: 5px;
+    border-radius: 10px;
+    background-position: center center;
+    align-items: flex-end;
+    display: flex;
+    color: #000000;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.container2 .col03 {
+    flex: 1;
+    background-image: url(S__87400482_0.jpg);
+    background-position: center center;
+    margin: 5px;
+    border-radius: 10px;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+    color: #000000;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+}
+.container2 .colT {
+    background-color: #393225;
+    opacity: 0.84;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img {
+    margin: 5px;
+}
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #FDF5E3;
+    text-align: center;
+    font-size: 14px;
+    line-height: 60px;
+    color: #000000;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+body header div {
+    color: #000000;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 28pt;
+    -webkit-transition: all 1s 0s;
+    -o-transition: all 1s 0s;
+    transition: all 1s 0s;
+}
+.container1 {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-indent: 4px;
+    text-shadow: 0px 0px;
+    letter-spacing: 0px;
+}
+.course2 {
+    background-clip: padding-box;
+    background-position: 47% 0%;
+}
+.course2 .container2 .col04 {
+    background-image: url(S__87400473.jpg);
+    background-position: 0% 0%;
+    border-top-left-radius: 209px;
+    margin-left: 68px;
+    float: right;
+    text-align: center;
+}
+.active {
+    border-radius: 83px;
+    width: 476px;
+    height: 261px;
+    min-width: 20px;
+}
+body {
+    background-color: #000000;
+    background-image: url(4936566_l.jpg);
+}
+.active.1 {
+    background-color: #FDF5E3;
+}
+.container2 .col01:active {
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.container2 .col02:active {
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.container2 .col03:hover {
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.container2:hover {
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.container2 .col01:hover {
+    -webkit-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+body header div:hover {
+    -webkit-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.container1 {
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.container1:hover {
+    -webkit-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+nav:hover {
+    -webkit-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+nav ul li:hover {
+    -webkit-transform: translateY(-11px);
+    -o-transform: translateY(-11px);
+    transform: translateY(-11px);
+}
